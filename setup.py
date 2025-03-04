@@ -6,10 +6,10 @@
 from setuptools import setup
 
 
-with open("esm/version.py") as infile:
+with open("esm/version.py", encoding="utf-8") as infile:
     exec(infile.read())
 
-with open("README.md") as f:
+with open("README.md", encoding="utf-8") as f:
     readme = f.read()
 
 extras = {
